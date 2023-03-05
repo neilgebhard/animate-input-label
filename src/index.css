@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus + label span,
+input:valid + label span {
+  transform: translateY(-20px);
+  color: lightslategray;
+}
